@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/Users/jorel/Documents/University/2017/S2/Working/Object Oriented Software Engineering/Assignment'
+let g:netrw_dirhist_2='/home/18847897/Documents/fcc/des0/src'
+let g:netrw_dirhist_3='/home/18847897/Documents/fcc/des0'
