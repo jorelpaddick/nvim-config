@@ -150,5 +150,8 @@ Plug 'scrooloose/nerdtree'
 Plug 'keith/swift.vim'
 Plug 'honza/vim-snippets'
 Plug 'arrufat/vala.vim'
-
+Plug 'vim-airline/vim-airline'
+Plug 'airblade/vim-gitgutter'
+Plug 'tpope/vim-fugitive'
+Plug 'rbong/vim-flog'
 call plug#end()
