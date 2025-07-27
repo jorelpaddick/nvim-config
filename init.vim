@@ -43,6 +43,7 @@ map <leader>t :tabnew<cr>
 map <leader>e :NERDTree<cr>
 
 colorscheme starrise "Customised colour scheme file is loaded here
+set notermguicolors
 
 "Set dynamic line numbering behaviour for different modes
 "In normal mode the line numbers are relative
