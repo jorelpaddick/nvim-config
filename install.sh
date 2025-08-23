@@ -18,6 +18,7 @@ echo "[+] Copying init.vim"
 cp init.vim $CONFIG/init.vim
 echo "[+] Copying colours"
 cp -r colors $CONFIG/
+cp -r syntax $CONFIG/
 echo "[+] Copying bundles..."
 cp -r nvim/* $CONTENT/
 

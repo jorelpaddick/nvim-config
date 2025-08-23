@@ -155,4 +155,5 @@ Plug 'vim-airline/vim-airline'
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive'
 Plug 'rbong/vim-flog'
+Plug 'mechatroner/rainbow_csv'
 call plug#end()
