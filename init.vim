@@ -80,6 +80,12 @@ autocmd BufReadPost,bufnewFile *.c exe "badd ~/.vim/syntax/c.vim"
 "C++ MODE THINGS
 autocmd BufReadPost,bufnewFile *.cpp exe "badd ~/.vim/syntax/cpp.vim"
 
+" HTTP THINGS
+autocmd BufReadPost,bufnewFile *.http exe "set filetype=http"
+
+" Terraform THINGS
+autocmd BufReadPost,bufnewFile *.tf exe "set filetype=terraform"
+
 "Headers are important for all source files
 "Below are a series of automatic commands to create
 "and maintain headers for c and java. 
@@ -132,6 +138,9 @@ autocmd bufnewfile *.py exe "g/CREATED:.*/s//CREATED: " .strftime("%d-%m-%Y")
 autocmd Bufwritepre,filewritepre *py execute "normal ma"
 autocmd Bufwritepre,filewritepre *.py exe "g/MODIFIED.*/s/MODIFIED:.*/MODIFIED: " .strftime("%c")
 autocmd bufwritepost,filewritepost *.py execute "normal `a""`"
+
+"For HTTP Requests
+
 
 "This line allows one to instantly create PDF documents while working in 
 "markdown by simply typing :Makepdf into the command line.
